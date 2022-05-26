@@ -26,12 +26,20 @@
     justify-content: space-between;
 }
 
+.fl-wrap{
+    flex-wrap: wrap;
+}
+
 .disp-non{
     display: none;
 }
 
 .disp-in-bl{
     display: inline-block;
+}
+
+.disp-bl{
+    display: block;
 }
 
 /* SIZE */
@@ -45,6 +53,10 @@
 
 .txt-heavy{
     font-weight: bold;
+}
+
+.txt-al-cent{
+    text-align: center;
 }
 
 .w-100{
@@ -145,6 +157,7 @@ hr{
     width: 100%;
     height: calc(100vh - 100px);
     background-color: #141922;
+    overflow: auto;
 }
 
 .option-menu{
@@ -152,6 +165,15 @@ hr{
     list-style: none;
     text-align: center;
     line-height: 1.5;
+}
+
+.title{
+    padding: 30px 10px;
+}
+
+.img-card{
+    width: calc(100% / 2 - 10px);
+    padding: 10px;
 }
 
 /* MAIN-CONTENT */
