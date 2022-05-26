@@ -76,6 +76,10 @@
     padding: 10px;
 }
 
+.pad-wid-small{
+    padding: 5px;
+}
+
 /* COLOR */
 .txt-white{
     color: white;
@@ -160,21 +164,30 @@ hr{
     overflow: auto;
 }
 
+/* MAIN-MENU-TOP */
 .option-menu{
     margin-top: 100px;
     list-style: none;
     text-align: center;
     line-height: 1.5;
 }
+/* MAIN-MENU-TOP */
 
+/* CARD-ALBUMS */
 .title{
     padding: 30px 10px;
 }
 
 .img-card{
-    width: calc(100% / 2 - 10px);
-    padding: 10px;
+    width: calc(100% / 2);
 }
+/* CARD-ALBUMS */
+
+/* FOR-JOHN */
+.title-john{
+    padding: 30px 10px 10px 10px;
+}
+/* FOR-JOHN */
 
 /* MAIN-CONTENT */
 
@@ -221,6 +234,23 @@ hr{
     }
     /* SIDE-MENU */
 }
-@media all and (min-width: 701px){}
+@media all and (min-width: 701px){
+    /* CARD-ALBUMS */
+    .img-card{
+        width: calc(100% / 4);
+    }
+    /* CARD-ALBUMS */
 
-@media all and (min-width: 1100px){}
+    /* FOR-JOHN */
+    .for-john{
+        width: calc(100% / 2);
+    }
+    }
+
+@media all and (min-width: 1100px){
+    /* CARD-ALBUMS */
+    .img-card{
+        width: calc(100% / 6);
+    }
+    /* CARD-ALBUMS */
+}
