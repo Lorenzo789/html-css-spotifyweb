@@ -30,6 +30,10 @@
     display: none;
 }
 
+.disp-in-bl{
+    display: inline-block;
+}
+
 /* SIZE */
 .small{
     width: 30px;
@@ -54,6 +58,10 @@
 
 .pad-med{
     padding: 10px 0px;
+}
+
+.pad-wid{
+    padding: 10px;
 }
 
 /* COLOR */
@@ -97,7 +105,7 @@
 
 /* SIDE-MENU */
 .side-menu{
-    height: 600px;
+    height: calc(100vh - 100px);
     padding: 10px;
     text-align: center;
     background-color: black;
@@ -125,19 +133,35 @@ hr{
     text-align: left;
 }
 
-ul{
+.side-list{
     list-style: none;
     padding: 10px 0px;
     line-height: 1.5;
 }
 /* SIDE-MENU */
 
+/* MAIN-CONTENT */
 .main-content{
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 100px);
     background-color: #141922;
 }
 
+.option-menu{
+    margin-top: 100px;
+    list-style: none;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* MAIN-CONTENT */
+
+/* FOOTER */
+.footer-content{
+    height: 100px;
+    width: 100%;
+    background-color: #282828;
+}
 /***********
  RESPONSIVE
 ************/
@@ -145,9 +169,13 @@ ul{
 @media all and (min-width: 600px){}
 
 @media all and (min-width: 601px){
+    /* TOP-CONTENT */
     .top-content{
         left: 205px;
     }
+    /* TOP-CONTENT */
+
+    /* SIDE-MENU */
     .side-menu{
         width: 300px;
     }
@@ -169,6 +197,7 @@ ul{
     .hidden.disp-non{
         display: block;
     }
+    /* SIDE-MENU */
 }
 @media all and (min-width: 701px){}
 
