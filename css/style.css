@@ -14,6 +14,10 @@
     align-items: center;
 }
 
+.al-it-bs{
+    align-items: baseline;
+}
+
 .jc-cen{
     justify-content: center;
 }
@@ -43,6 +47,11 @@
 }
 
 /* SIZE */
+
+.font-size-big{
+    font-size: 20px;
+}
+
 .small{
     width: 30px;
 }
@@ -195,6 +204,7 @@ hr{
     object-fit: cover;
     border-radius: 50%;
 }
+/* POPULAR-ARTIST */
 
 /* MAIN-CONTENT */
 
@@ -204,6 +214,43 @@ hr{
     width: 100%;
     background-color: #282828;
 }
+
+.sx-content, .dx-content{
+    width: 25%;
+}
+
+.album-title{
+    margin-right: 10px;
+}
+
+.album-title>h3{
+    font-size: 15px;
+}
+
+.cent-content{
+    width: 45%;
+    text-align: center;
+}
+
+.cent-content-vol{
+    width: 100%;
+    border-bottom: 5px solid #6d6d6d;
+    margin: 5px;
+}
+
+.txt-small{
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.dx-content-vol{
+    border-top: 5px solid #6d6d6d;
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+/* FOOTER */
 
 /***********
  RESPONSIVE
@@ -251,6 +298,18 @@ hr{
     /* FOR-JOHN */
     .for-john{
         width: calc(100% / 2);
+    }
+    /* FOR-JOHN */
+
+    /* FOOTER */
+    .sx-content, .dx-content{
+        width: 200px;
+    }
+    .album{
+        padding: 10px;
+    }
+    .album.pad-wid-small>img{
+        width: 60px;
     }
 }
 
