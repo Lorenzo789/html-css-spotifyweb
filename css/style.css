@@ -96,7 +96,72 @@
 .txt-gray{
     color: #6d6d6d;
 }
+/* COLOR */
 
+
+
+
+/* HOVER */
+
+/* TOP-CONTENT */
+#upgrade-abs:hover{
+    transform: scale(1.1);
+}
+
+/* MAIN-MENU-TOP */
+.txt-gray.disp-in-bl.pad-wid.txt-heavy:hover{
+    color: white;
+    cursor: pointer;
+}
+/* MAIN-MENU-TOP */
+
+/* SIDE-MENU */
+span.disp-non.txt-white:hover{
+    cursor: pointer;
+}
+
+span.disp-non.txt-gray:hover{
+    color: white;
+    cursor: pointer;
+}
+
+div.hidden.disp-non>span.txt-gray:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#plus:hover{
+    color: black;
+    cursor: pointer;
+    background-color: white;
+}
+
+li.txt-gray:hover{
+    color: white;
+    cursor: pointer;
+}
+/* SIDE-MENU */
+
+/* FOOTER */
+
+/* SX-CONTENT */
+div.album-title>span.txt-gray:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+a.txt-gray:hover{
+    color: white;
+}
+/* SX-CONTENT */
+
+/* CENT-CONTENT */
+#zoom-circle:hover{
+    transform: scale(1.5);
+}
+/* FOOTER */
+
+/* HOVER */
 
 
 
@@ -134,6 +199,7 @@
     padding: 10px;
     text-align: center;
     background-color: black;
+    overflow: hidden;
 }
 
 hr{
@@ -162,6 +228,9 @@ hr{
     list-style: none;
     padding: 10px 0px;
     line-height: 1.5;
+    overflow: auto;
+    height: 190px;
+    min-height: 140px;
 }
 /* SIDE-MENU */
 
@@ -303,7 +372,7 @@ hr{
 
     /* FOOTER */
     .sx-content, .dx-content{
-        width: 200px;
+        width: 230px;
     }
     .album{
         padding: 10px;
